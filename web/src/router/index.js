@@ -19,7 +19,7 @@ const routes = [
     name: "home_index",
     component: HomeIndexView,
     meta: {
-      requestAuth: true,
+      requestAuth: false,
     }
   },
   {
@@ -35,7 +35,7 @@ const routes = [
     name: "record_index",
     component: RecordIndexView,
     meta: {
-      requestAuth: true,
+      requestAuth: false,
     }
   },
   {
@@ -43,7 +43,7 @@ const routes = [
     name: "record_content",
     component: RecordContentView,
     meta: {
-      requestAuth: true,
+      requestAuth: false,
     }
   },
   {
@@ -51,7 +51,7 @@ const routes = [
     name: "ranklist_index",
     component: RanklistIndexView,
     meta: {
-      requestAuth: true,
+      requestAuth: false,
     }
   },
   {
@@ -59,7 +59,7 @@ const routes = [
     name: "bot_ranklist_index",
     component: RanklistIndexBot,
     meta: {
-      requestAuth: true,
+      requestAuth: false,
     }
   },
   {
@@ -67,7 +67,7 @@ const routes = [
     name: "user_bot_index",
     component: UserBotIndexView,
     meta: {
-      requestAuth: true,
+      requestAuth: false,
     }
   },
   {
@@ -76,7 +76,7 @@ const routes = [
     component: UserMainView,
     props: true,
     meta: {
-      requestAuth: true,
+      requestAuth: false,
     }
   },
   {

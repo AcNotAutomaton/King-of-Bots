@@ -42,7 +42,7 @@ export default {
         let bots = ref([])
         const pull_bot =() => {
             $.ajax({
-                url: "http://8.130.99.166/api/user/bot/getlist/alluser/",
+                url: "http://47.120.10.114:3000/api/user/bot/getlist/alluser/",
                 type: "get",
                 headers: {
                     Authorization: "Bearer " + store.state.user.token,
